@@ -1,6 +1,8 @@
+
 import java.util.*;
 
 class ListNode {
+
     int val;
     ListNode next;
 
@@ -15,6 +17,7 @@ class ListNode {
 }
 
 public class LinkedListFrontBackSum {
+
     public static void main(String[] args) {
         ListNode head = new ListNode(1,
                 new ListNode(2,
@@ -24,10 +27,11 @@ public class LinkedListFrontBackSum {
 
         ListNode cur = head;
         while (cur != null) {
-            if (cur.next == null)
-                System.out.print(cur.val);
-            else
+            if (cur.next == null) {
+                System.out.print(cur.val); 
+            }else {
                 System.out.print(cur.val + " -> ");
+            }
             cur = cur.next;
         }
 
@@ -35,10 +39,11 @@ public class LinkedListFrontBackSum {
         cur = head;
         modifyList(head);
         while (head != null) {
-            if (head.next == null)
-                System.out.print(head.val);
-            else
+            if (head.next == null) {
+                System.out.print(head.val); 
+            }else {
                 System.out.print(head.val + " -> ");
+            }
             head = head.next;
         }
     }
