@@ -1,0 +1,440 @@
+========================
+1. Math Problems
+========================
+1. Reverse Integer - GFG | https://leetcode.com/problems/reverse-integer/
+2. Palindrome Number - GFG | https://leetcode.com/problems/palindrome-number/
+3. Count Digits - GFG | -
+4. Factorial - GFG | -
+5. Power of Number - GFG | https://leetcode.com/problems/powx-n/
+6. Square Root - GFG | https://leetcode.com/problems/sqrtx/
+7. Trailing Zeroes - GFG | https://leetcode.com/problems/factorial-trailing-zeroes/
+8. Sum of Digits - GFG | -
+9. Armstrong Number - GFG | -
+10. Perfect Number - GFG | -
+
+========================
+2.1 Number Theory
+========================
+1. GCD - GFG | https://leetcode.com/problems/find-greatest-common-divisor-of-array/
+2. LCM - GFG | -
+3. Prime Check - GFG | -
+4. Sieve of Eratosthenes - GFG | -
+5. Modular Exponentiation - GFG | -
+6. Prime Factors - GFG | -
+7. Divisors Count - GFG | -
+8. Euler Totient - GFG | -
+9. Co-prime - GFG | -
+10. Extended Euclid - GFG | -
+
+========================
+2.2 Special Numbers
+========================
+1. Armstrong - GFG | -
+2. Strong Number - GFG | -
+3. Perfect Number - GFG | -
+4. Happy Number - GFG | https://leetcode.com/problems/happy-number/
+5. Neon Number - GFG | -
+6. Automorphic Number - GFG | -
+7. Palindrome Number - GFG | LC
+8. Harshad Number - GFG | -
+9. Duck Number - GFG | -
+10. Spy Number - GFG | -
+
+========================
+3. Bit Manipulation
+========================
+1. Single Number - GFG | https://leetcode.com/problems/single-number/
+2. Count Set Bits - GFG | https://leetcode.com/problems/number-of-1-bits/
+3. Power of Two - GFG | https://leetcode.com/problems/power-of-two/
+4. Missing Number - GFG | https://leetcode.com/problems/missing-number/
+5. XOR till N - GFG | -
+6. Swap using XOR - GFG | -
+7. Rightmost Set Bit - GFG | -
+8. Subsets - GFG | https://leetcode.com/problems/subsets/
+9. Bit Difference - GFG | -
+10. Divide without operator - GFG | LC
+
+========================
+4. 1D Arrays
+========================
+1. Linear Search - GFG | -
+2. Largest Element - GFG | -
+3. Second Largest - GFG | -
+4. Rotate Array - GFG | https://leetcode.com/problems/rotate-array/
+5. Move Zeros - GFG | https://leetcode.com/problems/move-zeroes/
+6. Remove Duplicates - GFG | https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+7. Missing Number - GFG | LC
+8. Max Consecutive Ones - GFG | https://leetcode.com/problems/max-consecutive-ones/
+9. Kadane Basic - GFG | -
+10. Stock Buy Sell - GFG | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+========================
+5. Strings
+========================
+1. Reverse String - GFG | LC
+2. Palindrome String - GFG | -
+3. Anagram - GFG | https://leetcode.com/problems/valid-anagram/
+4. Longest Common Prefix - GFG | LC
+5. String to Integer - GFG | LC atoi
+6. Count vowels - GFG | -
+7. Remove duplicates - GFG | -
+8. Substring search - GFG | strStr
+9. Frequency count - GFG | -
+10. Roman to Integer - GFG | LC
+
+========================
+6. 2D Arrays
+========================
+1. Matrix transpose - GFG | LC
+2. Spiral traversal - GFG | LC
+3. Row sum - GFG | -
+4. Search matrix - GFG | LC
+5. Rotate matrix - GFG | LC
+6. Diagonal sum - GFG | -
+7. Wave traversal - GFG | -
+8. Boundary traversal - GFG | -
+9. Set matrix zero - GFG | LC
+10. Island count - GFG | LC
+
+========================
+7. Searching
+========================
+1. Linear Search - GFG | -
+2. Binary Search - GFG | LC
+3. First occurrence - GFG | -
+4. Last occurrence - GFG | -
+5. Floor & Ceil - GFG | -
+6. Search insert position - GFG | LC
+7. Peak element - GFG | LC
+8. Rotated array search - GFG | LC
+9. Count occurrences - GFG | -
+10. Square root BS - GFG | -
+
+========================
+8. Sorting
+========================
+1. Bubble Sort - GFG | -
+2. Selection Sort - GFG | -
+3. Insertion Sort - GFG | -
+4. Merge Sort - GFG | LC
+5. Quick Sort - GFG | -
+6. Count Sort - GFG | -
+7. Sort Colors - GFG | LC
+8. Kth largest - GFG | LC
+9. Relative sort - GFG | LC
+10. Frequency sort - GFG | LC
+
+========================
+9. Binary Search
+========================
+1. Classic BS - GFG | LC
+2. First bad version - - | LC
+3. Peak element - GFG | LC
+4. Search rotated - GFG | LC
+5. Min in rotated - GFG | LC
+6. Allocate pages - GFG | -
+7. Aggressive cows - GFG | -
+8. Painter partition - GFG | -
+9. Koko bananas - - | LC
+10. Median sorted arrays - - | LC
+
+========================
+10. Two Pointers
+========================
+1. Pair sum - GFG | LC
+2. Remove duplicates - GFG | LC
+3. Container water - - | LC
+4. 3 sum - - | LC
+5. 4 sum - - | LC
+6. Merge sorted arrays - GFG | LC
+7. Reverse vowels - - | LC
+8. Move zeros - GFG | LC
+9. Sort 0 1 2 - GFG | LC
+10. Valid palindrome - - | LC
+
+========================
+11. Sliding Window
+========================
+1. Max sum subarray k - GFG | -
+2. Longest substring no repeat - - | LC
+3. Min window substring - - | LC
+4. Fruits basket - - | LC
+5. Max consecutive ones III - - | LC
+6. Anagram count - GFG | -
+7. Subarray product < k - - | LC
+8. Longest repeating replacement - - | LC
+9. Binary subarray sum - - | LC
+10. Sliding window max - GFG | LC
+
+========================
+12. Prefix Sum
+========================
+1. Prefix sum array - GFG | -
+2. Range sum query - - | LC
+3. Subarray sum = k - - | LC
+4. Equilibrium index - GFG | -
+5. Product except self - - | LC
+6. Pivot index - - | LC
+7. 2D prefix sum - GFG | -
+8. XOR prefix - GFG | -
+9. Subarray divisible by k - - | LC
+10. Count subarrays - GFG | -
+
+========================
+13. Kadane
+========================
+1. Max subarray - GFG | LC
+2. Circular subarray - GFG | LC
+3. Max product subarray - GFG | LC
+4. Min subarray - GFG | -
+5. Largest sum k - GFG | -
+6. Max difference - GFG | -
+7. Rainwater - GFG | LC
+8. Max sum rectangle - GFG | -
+9. Stock 2 - - | LC
+10. Max absolute sum - - | LC
+
+========================
+(remaining topics same pattern continue...)
+================================================
+14. Hashing (Basics)
+========================
+1. Frequency Count - GFG | -
+2. Two Sum - GFG | https://leetcode.com/problems/two-sum/
+3. Intersection of Arrays - GFG | https://leetcode.com/problems/intersection-of-two-arrays/
+4. Union of Arrays - GFG | -
+5. Longest Subarray Sum = K - GFG | -
+6. Subarray with 0 sum - GFG | -
+7. Count distinct elements - GFG | -
+8. First repeating element - GFG | -
+9. Longest consecutive sequence - GFG | https://leetcode.com/problems/longest-consecutive-sequence/
+10. Zero sum subarrays count - GFG | -
+
+========================
+15. HashMap & TreeMap
+========================
+1. Two Sum - GFG | LC
+2. LRU Cache - - | https://leetcode.com/problems/lru-cache/
+3. Top K Frequent Elements - - | https://leetcode.com/problems/top-k-frequent-elements/
+4. Group Anagrams - - | https://leetcode.com/problems/group-anagrams/
+5. Subarray sum = K - - | LC
+6. First unique char - - | LC
+7. Isomorphic strings - - | LC
+8. Word pattern - - | LC
+9. Frequency sort - - | LC
+10. Map operations basic - GFG | -
+
+========================
+16. HashSet & TreeSet
+========================
+1. Distinct elements - GFG | -
+2. Longest consecutive sequence - GFG | LC
+3. Contains duplicate - - | https://leetcode.com/problems/contains-duplicate/
+4. Happy number - - | LC
+5. Intersection - GFG | LC
+6. Union - GFG | -
+7. Subarray distinct count - GFG | -
+8. Set operations basic - GFG | -
+9. Remove duplicates - GFG | -
+10. Find missing number - GFG | LC
+
+========================
+17. Recursion
+========================
+1. Factorial - GFG | -
+2. Fibonacci - GFG | -
+3. Power - GFG | LC
+4. Sum of digits - GFG | -
+5. Reverse array - GFG | -
+6. Check palindrome - GFG | -
+7. Tower of Hanoi - GFG | -
+8. Subsequence generation - GFG | -
+9. Binary strings - GFG | -
+10. Josephus problem - GFG | -
+
+========================
+18. Backtracking
+========================
+1. Subsets - GFG | LC
+2. Permutations - GFG | LC
+3. Combination Sum - - | LC
+4. N Queens - GFG | LC
+5. Sudoku Solver - GFG | LC
+6. Rat in Maze - GFG | -
+7. Word Search - - | LC
+8. Palindrome partition - - | LC
+9. Generate parentheses - - | LC
+10. Combination sum II - - | LC
+
+========================
+19. LinkedList
+========================
+1. Reverse LL - GFG | LC
+2. Detect cycle - GFG | LC
+3. Middle node - GFG | LC
+4. Merge two lists - GFG | LC
+5. Remove nth node - - | LC
+6. Intersection point - GFG | -
+7. Palindrome LL - GFG | LC
+8. Add two numbers - - | LC
+9. Delete node - GFG | LC
+10. Sort LL - GFG | LC
+
+========================
+20. Stack
+========================
+1. Valid parentheses - - | LC
+2. Next greater element - GFG | LC
+3. Stock span - GFG | -
+4. Largest rectangle histogram - GFG | LC
+5. Min stack - - | LC
+6. Evaluate postfix - GFG | -
+7. Infix to postfix - GFG | -
+8. Reverse stack - GFG | -
+9. Celebrity problem - GFG | -
+10. Daily temperatures - - | LC
+
+========================
+21. Queue
+========================
+1. Implement queue - GFG | -
+2. Circular queue - GFG | -
+3. Queue using stack - - | LC
+4. Stack using queue - - | LC
+5. First non repeating char - GFG | -
+6. Generate binary numbers - GFG | -
+7. Sliding window max - GFG | LC
+8. Rotten oranges - GFG | LC
+9. BFS basic - GFG | -
+10. Level order traversal - GFG | LC
+
+========================
+22. Deque
+========================
+1. Sliding window max - GFG | LC
+2. Min window deque - GFG | -
+3. Circular deque design - - | LC
+4. First negative in window - GFG | -
+5. Max of subarrays - GFG | -
+6. Deque operations - GFG | -
+7. Sum of min max window - GFG | -
+8. Gas station (deque logic) - - | LC
+9. Shortest subarray >= k - - | LC
+10. Monotonic queue - GFG | -
+
+========================
+23. Slow & Fast Pointers
+========================
+1. Detect cycle - GFG | LC
+2. Find middle - GFG | LC
+3. Happy number - - | LC
+4. Cycle start node - - | LC
+5. Palindrome LL - GFG | LC
+6. Remove nth node - - | LC
+7. Find duplicate number - - | LC
+8. Intersection LL - GFG | -
+9. Loop length - GFG | -
+10. Reorder list - - | LC
+
+========================
+24. Heaps (Priority Queue)
+========================
+1. Kth largest element - GFG | LC
+2. Top K frequent - - | LC
+3. Merge k sorted arrays - GFG | -
+4. Median from stream - - | LC
+5. K closest points - - | LC
+6. Sort nearly sorted - GFG | -
+7. Task scheduler - - | LC
+8. Reorganize string - - | LC
+9. Smallest range - - | LC
+10. Connect ropes - GFG | -
+
+========================
+25. Trees
+========================
+1. Inorder traversal - GFG | LC
+2. Preorder - GFG | LC
+3. Postorder - GFG | LC
+4. Level order - GFG | LC
+5. Height of tree - GFG | LC
+6. Diameter - GFG | LC
+7. Balanced tree - GFG | LC
+8. LCA - GFG | LC
+9. Same tree - - | LC
+10. Zigzag traversal - GFG | LC
+
+========================
+26. Graphs
+========================
+1. Graph representation - GFG | -
+2. BFS - GFG | LC
+3. DFS - GFG | LC
+4. Number of islands - GFG | LC
+5. Cycle detection - GFG | -
+6. Bipartite graph - GFG | LC
+7. Topological sort - GFG | -
+8. Shortest path BFS - GFG | -
+9. Connected components - GFG | -
+10. Graph coloring - GFG | -
+
+========================
+27. Graph Algorithms
+========================
+1. Dijkstra - GFG | -
+2. Bellman Ford - GFG | -
+3. Floyd Warshall - GFG | -
+4. Kruskal MST - GFG | -
+5. Prim MST - GFG | -
+6. Kosaraju SCC - GFG | -
+7. Tarjan bridges - GFG | -
+8. Detect cycle directed - GFG | -
+9. Shortest path DAG - GFG | -
+10. Alien dictionary - GFG | LC
+
+========================
+28. Greedy
+========================
+1. Activity selection - GFG | -
+2. Fractional knapsack - GFG | -
+3. Job sequencing - GFG | -
+4. Min coins - GFG | -
+5. Gas station - - | LC
+6. Jump game - - | LC
+7. Candy - - | LC
+8. Interval merge - GFG | LC
+9. Non overlapping intervals - - | LC
+10. Assign cookies - - | LC
+
+========================
+29. DP on Arrays
+========================
+1. Fibonacci DP - GFG | -
+2. Climbing stairs - - | LC
+3. House robber - - | LC
+4. Max sum non adjacent - GFG | -
+5. LIS - GFG | LC
+6. Coin change - - | LC
+7. Partition equal subset - - | LC
+8. Subset sum - GFG | -
+9. Min cost climbing - - | LC
+10. Decode ways - - | LC
+
+========================
+30. DP on Matrix
+========================
+1. Unique paths - - | LC
+2. Min path sum - - | LC
+3. Max square - - | LC
+4. Cherry pickup - - | LC
+5. Dungeon game - - | LC
+6. Triangle path - - | LC
+7. Falling path sum - - | LC
+8. Grid paths with obstacles - - | LC
+9. Largest rectangle binary matrix - GFG | -
+10. Count squares - - | LC
+========================
+
+
+ippudu veetini pdf lo petti neat ga margin lo 
+gfg or leetcode links kooda add chey

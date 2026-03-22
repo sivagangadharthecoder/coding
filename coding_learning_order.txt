@@ -1,0 +1,51 @@
+-> Learning Order
+
+Phase 1: Basics
+1. Math Problems 
+2. Number Theory and special numbers
+3. Bit Manipulation
+
+Phase 2: Core Data Handling
+4. 1D Arrays
+5. Strings
+6. 2D Arrays
+
+Phase 3: Searching & Sorting
+7. Searching
+8. Sorting
+9. Binary Search
+
+Phase 4: Important Patterns
+10. Two Pointers
+11. Sliding Window
+12. Prefix Sum
+13. Kadane’s Algorithm
+
+Phase 5: Hashing and sorted
+14. Hashing (Basics)
+15. HashMap & TreeMap
+16. HashSet & TreeSet
+
+Phase 6: Recursion & Backtracking
+17. Recursion
+18. Backtracking
+
+Phase 7: Linear Data Structures
+19. LinkedList
+20. Stack
+21. Queue
+22. Deque
+23. Slow & Fast Pointers
+
+Phase 8: Advanced Structures
+24. Heaps (Priority Queue)
+
+Phase 9: Trees & Graphs
+25. Trees and traversals
+26. Graphs
+27. Graph traversals and Algorithms
+
+Phase 10: Greedy & DP
+28. Greedy
+29. DP on Arrays
+30. DP on Matrix
