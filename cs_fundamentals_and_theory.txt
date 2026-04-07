@@ -1,0 +1,45 @@
+-> Priority 1
+1. Operating Systems                  111-112
+2. Operating Systems Lab              120-121
+3. Database Management Systems       140-141
+4. Database Management Systems Lab   146-149
+5. Computer Networks                 176-177
+6. Computer Networks Lab             238-239
+7. Unix and Shell Programming Lab    122-124
+
+-> Priority 2
+8. Java Programming                  142-143
+9. Java Programming Lab              151-153
+
+-> Priority 3
+10. Programming for Problem Solving using C   71-72
+11. Programming for Problem Solving using C Lab   79-80
+
+-> Priority 4
+12. Data Structures through C                 93-94
+13. Data Structures through C Lab            97-98
+14. Advanced Data Structures                 107-108
+
+-> Priority 5
+15. Design and Analysis of Algorithms        178
+16. Computer Organization                   89-90
+17. Software Engineering                   113-114
+18. Compiler Design                        262-263
+
+-> Priority 6
+19. Data Mining and UML Lab                240-241
+20. Data Ware Housing and Data Mining      180
+21. Cryptography and Network Security      264
+22. Cryptography and Network Security Lab  336-337
+23. Formal Languages and Automata Theory   138-139
+
+-> Priority 7
+24. Object Oriented Programming through C++     109-110
+25. Object Oriented Programming through C++ Lab 117-118
+
+-> Priority 8
+26. Python Programming                  91-92
+27. Python Programming Lab              99-101
+28. Machine Learning                    260-261
+29. Machine Learning using Python Lab   331-332
+30. Python: Deep Learning               474-475
