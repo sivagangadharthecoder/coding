@@ -1,0 +1,223 @@
+================= TCS NQT DSA ROADMAP =================
+
+
+================= STRATEGY =================
+
+✔ Each topic → Learn concept briefly  
+✔ Solve minimum 2 problems  
+✔ Focus more on:
+   - Arrays
+   - Strings
+   - Basics
+
+✔ Don’t go too deep
+
+====================================================
+
+------------------ PHASE 0: BASICS ------------------
+
+01. Java Basics Revision
+    - Java theory (IT syllabus)
+    - Lab programs
+    - 100 basic programs list
+    - TCS NQT site questions
+
+02. Math & Geometry Basics
+      also do these
+    - Celsius ↔ Fahrenheit
+    - Roots of Quadratic Equation
+
+03. Number Theory Basics
+      also do these
+    - Even / Odd
+    - Prime Number
+    - Perfect Number
+    - Armstrong Number
+    - Happy Number
+
+04. GCD / Euclidean Algorithm
+
+05. Sieve of Eratosthenes
+
+06. Bit Manipulation (basics only)
+
+-----------------------------------------------------
+
+------------------ PHASE 1: ARRAYS ------------------
+
+07. 1D Array (10 problems)
+
+08. 2D Array Basics
+
+09. 2D Array Patterns
+
+10. Matrix Operations
+    - Addition
+    - Multiplication
+    - Transpose
+
+11. Matrix Patterns
+
+12. Intervals (basic problems)
+
+-----------------------------------------------------
+
+------------------ PHASE 2: STRINGS + HASHING -------
+
+13. Strings Basics
+    - Methods
+    - 10 problems
+
+14. Hashing
+    - Array frequency
+    - HashMap
+    - HashSet
+
+-----------------------------------------------------
+
+------------------ PHASE 3: CORE LOGIC --------------
+
+15. Recursion Basics
+
+16. Backtracking Basics
+    - N-Queens problem
+
+17. Searching
+    - Linear Search
+    - Binary Search (intro)
+
+18. Sorting Techniques
+    - Bubble, Selection, Insertion
+    - Merge, Quick
+
+19. Divide and Conquer
+
+-----------------------------------------------------
+
+------------------ PHASE 4: PATTERNS ----------------
+
+20. Prefix Sum
+
+21. Two Pointers
+
+22. Sliding Window
+
+23. Kadane’s Algorithm
+
+24. Boyer-Moore Voting Algorithm
+
+25. Floyd’s Cycle Detection
+
+26. Greedy (2 problems)
+
+-----------------------------------------------------
+
+------------------ PHASE 5: BINARY SEARCH -----------
+
+27. Binary Search
+
+28. Modified Binary Search
+    - First/Last Occurrence
+    - Lower/Upper Bound
+
+-----------------------------------------------------
+
+------------------ PHASE 6: COLLECTIONS -------------
+
+29. List (ArrayList, LinkedList)
+    - 2 problems
+
+30. Set (HashSet, TreeSet)
+    - 2 problems
+
+31. Queue / Deque
+    - 2 problems
+
+32. Map (HashMap, TreeMap)
+    - 2 problems
+
+-----------------------------------------------------
+
+------------------ PHASE 7: LINKED LIST -------------
+
+33. Linked List Creation & Operations
+
+34. Linked List Problems (2)
+
+35. In-Place Reversal
+
+36. Slow & Fast Pointer Technique
+
+-----------------------------------------------------
+
+------------------ PHASE 8: STACK & QUEUE ----------
+
+37. Stack Creation & Operations
+
+38. Stack Problems (2)
+
+39. Monotonic Stack (2 problems)
+
+40. Queue (Deque / LinkedList)
+    - Creation & Operations
+
+41. Queue Problems (2)
+
+42. Heap / Priority Queue
+    - Creation & Operations
+    - 2 problems
+
+-----------------------------------------------------
+
+------------------ PHASE 9: TREES -------------------
+
+43. Binary Tree Basics & Types
+
+44. Tree Traversals (DFS, BFS)
+
+45. Binary Search Tree (BST)
+
+46. AVL Tree
+    - Concept + Rotations
+
+47. Trie (Prefix Tree)
+
+48. Red-Black Tree
+    - Concept + Rotations
+
+49. Segment Tree
+
+50. Fenwick Tree (BIT)
+
+-----------------------------------------------------
+
+------------------ PHASE 10: GRAPHS -----------------
+
+51. Graph Fundamentals
+
+52. DFS
+
+53. BFS
+
+54. 0-1 BFS
+
+55. Shortest Path Algorithms
+    - Dijkstra (positive weights)
+    - Bellman-Ford (negative weights)
+
+56. Minimum Spanning Tree
+    - Prim’s Algorithm
+    - Kruskal Algorithm
+
+-----------------------------------------------------
+
+------------------ PHASE 11: DYNAMIC PROGRAMMING ----
+
+57. DP Fundamentals
+
+58. DP on 1D Array
+
+59. Knapsack Problems
+    - 0/1 Knapsack
+
+-----------------------------------------------------

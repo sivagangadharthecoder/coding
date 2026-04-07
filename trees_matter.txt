@@ -1,0 +1,144 @@
+==================== TREES QUICK NOTES ====================
+
+1) BINARY TREE
+- Definition: Each node has max 2 children
+- Usage: Hierarchical data, recursion
+
+TC:
+Insert  : O(n)
+Delete  : O(n)
+Search  : O(n)
+
+SC: O(n)
+
+------------------------------------------------------------
+
+2) BINARY SEARCH TREE (BST)
+- Rule: Left < Root < Right
+- Usage: Searching, sorted data
+
+TC:
+Average : O(log n)
+Worst   : O(n)
+
+Insert  : O(log n) / O(n)
+Delete  : O(log n) / O(n)
+Search  : O(log n) / O(n)
+
+SC: O(n)
+
+------------------------------------------------------------
+
+3) AVL TREE
+- Self-balancing BST (height diff <= 1)
+- Usage: Always fast search
+
+TC:
+Insert  : O(log n)
+Delete  : O(log n)
+Search  : O(log n)
+
+SC: O(n)
+
+ROTATIONS:
+LL -> Right Rotate
+RR -> Left Rotate
+LR -> Left + Right Rotate
+RL -> Right + Left Rotate
+
+------------------------------------------------------------
+
+4) RED-BLACK TREE (RBT)
+- Rules:
+  1. Root is black
+  2. No two red nodes adjacent
+  3. Same black height
+
+- Usage: TreeMap, TreeSet
+
+TC:
+Insert  : O(log n)
+Delete  : O(log n)
+Search  : O(log n)
+
+SC: O(n)
+
+FIXING:
+- Red-Red conflict:
+  Uncle RED   -> Recolor
+  Uncle BLACK -> Rotation
+
+------------------------------------------------------------
+
+5) TRIE (PREFIX TREE)
+- Stores characters
+- Usage: Autocomplete, dictionary
+
+TC:
+Insert  : O(L)
+Delete  : O(L)
+Search  : O(L)
+
+(L = word length)
+
+SC: O(ALPHABET * N)
+
+------------------------------------------------------------
+
+6) SEGMENT TREE
+- Range queries (sum, min, max)
+
+TC:
+Build   : O(n)
+Query   : O(log n)
+Update  : O(log n)
+
+SC: O(4n)
+
+------------------------------------------------------------
+
+7) FENWICK TREE (BINARY INDEXED TREE)
+- Prefix sums
+
+TC:
+Update  : O(log n)
+Query   : O(log n)
+
+SC: O(n)
+
+------------------------------------------------------------
+
+8) B-TREE
+- Multi-child tree (disk based)
+
+TC:
+Insert  : O(log n)
+Delete  : O(log n)
+Search  : O(log n)
+
+SC: O(n)
+
+------------------------------------------------------------
+
+9) B+ TREE
+- Data only in leaf nodes
+- Leaves are linked
+
+TC:
+Insert  : O(log n)
+Delete  : O(log n)
+Search  : O(log n)
+
+SC: O(n)
+
+------------------------------------------------------------
+
+AVL vs RBT:
+AVL -> Strict balance -> Faster search
+RBT -> Less strict -> Faster insert/delete
+
+Segment vs Fenwick:
+Segment -> More powerful
+Fenwick -> Simple + less memory
+
+============================================================

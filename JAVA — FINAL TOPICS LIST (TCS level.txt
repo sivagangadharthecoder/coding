@@ -1,0 +1,85 @@
+JAVA — FINAL TOPICS LIST (TCS level)
+A) Core Basics
+Java ante enti?
+Features of Java
+JVM / JRE / JDK
+Why Java is platform independent
+Compilation & execution flow
+Variables & data types
+Type casting
+Operators
+Control statements
+Arrays
+B) OOP in Java
+Class & Object
+Constructor
+this keyword
+super keyword
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+Method Overloading
+Method Overriding
+Interface
+Abstract Class
+Interface vs Abstract Class
+Association / Aggregation / Composition
+IS-A vs HAS-A
+C) Important Java Keywords
+static
+final
+finally
+finalize
+instanceof
+package
+import
+D) Strings
+String
+String vs StringBuilder vs StringBuffer
+String pool
+== vs .equals()
+Immutable ante enti
+E) Exception Handling
+Exception ante enti
+try / catch / finally
+throw / throws
+Checked vs Unchecked exceptions
+Custom exception
+F) Access & Memory
+Access modifiers
+Stack vs Heap
+Garbage Collection
+G) Collections (Basic interview level)
+Collection framework overview
+List / Set / Map
+ArrayList
+LinkedList
+HashSet
+HashMap
+Comparable vs Comparator
+Iterator
+H) Multithreading (basic level)
+Process vs Thread
+Thread creation
+start() vs run()
+sleep() / join()
+Synchronization
+I) Important Differences
+Overloading vs Overriding
+Abstract Class vs Interface
+ArrayList vs LinkedList
+HashMap vs HashSet
+String vs StringBuilder vs StringBuffer
+== vs .equals()
+J) TCS favourite interview questions
+Why Java?
+Why String is immutable?
+Why multiple inheritance not supported in Java?
+Why main method is static?
+Can we overload main method?
+Can we override static method?
+Can constructor be final/static/abstract?
+Why use interface?
+Why use abstract class?
+What is object class?

@@ -1,0 +1,148 @@
+==============================
+JAVA COLLECTIONS FRAMEWORK
+==============================
+
+Hierarchy:
+Iterable
+  -> Collection
+      -> List
+      -> Set
+      -> Queue
+          -> Deque
+Map (separate)
+
+--------------------------------------------------
+LIST
+--------------------------------------------------
+
+ArrayList:
+- Internal: Dynamic Array
+- Initial Capacity: 10
+- Growth: 1.5x
+- Null: Allowed
+- Duplicates: Allowed
+- Indexing: Yes
+- Order: Insertion Order
+
+LinkedList:
+- Internal: Doubly Linked List
+- Initial Capacity: No fixed
+- Growth: Dynamic (node-based)
+- Null: Allowed
+- Duplicates: Allowed
+- Indexing: Yes (slow)
+- Order: Insertion Order
+
+--------------------------------------------------
+SET
+--------------------------------------------------
+
+HashSet:
+- Internal: HashMap
+- Initial Capacity: 16
+- Growth: 2x
+- Null: One null allowed
+- Duplicates: Not allowed
+- Order: No order
+- Indexing: No
+
+LinkedHashSet:
+- Internal: HashMap + Linked List
+- Initial Capacity: 16
+- Growth: 2x
+- Null: One null allowed
+- Duplicates: Not allowed
+- Order: Insertion Order
+- Indexing: No
+
+TreeSet:
+- Internal: Red-Black Tree
+- Initial Capacity: No fixed
+- Growth: Tree grows
+- Null: Not allowed
+- Duplicates: Not allowed
+- Order: Sorted
+- Indexing: No
+
+--------------------------------------------------
+MAP
+--------------------------------------------------
+
+HashMap:
+- Internal: Array + LinkedList / Tree
+- Initial Capacity: 16
+- Growth: 2x (rehashing)
+- Null Key: One allowed
+- Null Values: Allowed
+- Duplicates Keys: Not allowed
+- Order: No order
+- Indexing: No
+
+LinkedHashMap:
+- Internal: HashMap + Linked List
+- Initial Capacity: 16
+- Growth: 2x
+- Null Key: One allowed
+- Null Values: Allowed
+- Duplicates Keys: Not allowed
+- Order: Insertion Order
+- Indexing: No
+
+TreeMap:
+- Internal: Red-Black Tree
+- Initial Capacity: No fixed
+- Growth: Tree grows
+- Null Key: Not allowed
+- Null Values: Not allowed
+- Duplicates Keys: Not allowed
+- Order: Sorted
+- Indexing: No
+
+--------------------------------------------------
+QUEUE / DEQUE
+--------------------------------------------------
+
+PriorityQueue:
+- Internal: Heap (Binary Heap)
+- Initial Capacity: 11
+- Growth: 2x
+- Null: Not allowed
+- Duplicates: Allowed
+- Order: Priority-based
+- Indexing: No
+
+ArrayDeque:
+- Internal: Circular Array
+- Initial Capacity: 16
+- Growth: 2x
+- Null: Not allowed
+- Duplicates: Allowed
+- Order: Insertion (Deque operations)
+- Indexing: No
+
+--------------------------------------------------
+STACK
+--------------------------------------------------
+
+Stack:
+- Internal: Dynamic Array (Vector)
+- Initial Capacity: 10
+- Growth: 2x
+- Null: Allowed
+- Duplicates: Allowed
+- Order: LIFO
+- Indexing: Yes (but not used)
+
+--------------------------------------------------
+IMPORTANT RULES
+--------------------------------------------------
+
+- List -> Allows duplicates, maintains order
+- Set -> No duplicates
+- Map -> Key-Value pair (No duplicate keys)
+- Hash -> No order
+- LinkedHash -> Insertion order
+- Tree -> Sorted order
+- TreeSet / TreeMap -> No null
+- Queue -> No null
+

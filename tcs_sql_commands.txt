@@ -1,0 +1,132 @@
+create table employee (
+    id int primary key,
+    name varchar(50),
+    salary decimal(5, 2)
+);
+
+select * from employee;
+
+insert into employee values (1, 'siva', 10000);
+insert into employee values (2, 'lova', 20000);
+select * from employee;
+
+update employee 
+set salary = 50000
+where id = 2;
+
+select * from employee;
+
+delete from employee
+where id = 1;
+
+select * from employee;
+select * from employee where id = 2;
+
+insert into employee values (1, 'lova', 200020.712);
+select * from employee;
+
+-----------
+
+create table student (
+    id int,
+    name varchar(20),
+    course_id int,
+    primary key(id, course_id)
+);
+
+insert into student values (1, 'lova', 10);
+insert into student values (1, 'lova', 10);
+insert into student values (1, 'lova', 20);
+insert into student values (2, 'siva', 20);
+
+select * from student;
+
+---------------
+
+CREATE TABLE dept (
+    dept_id INT PRIMARY KEY
+);
+
+CREATE TABLE student (
+    id INT,
+    name VARCHAR(20),
+    dept_id INT,
+    FOREIGN KEY (dept_id) REFERENCES dept(dept_id) ON DELETE CASCADE
+);
+
+INSERT INTO dept VALUES (10);
+INSERT INTO student VALUES (2, 'lova', 10);
+
+select * from dept;
+select * from student;
+
+DELETE FROM dept WHERE dept_id = 10;
+select * from dept;
+select * from student;
+
+--------------
+CREATE TABLE dept (
+    dept_id INT PRIMARY KEY,
+    dept_name VARCHAR(20)
+);
+
+CREATE TABLE student (
+    id INT PRIMARY KEY,
+    name VARCHAR(20),
+    dept_id INT
+);
+
+INSERT INTO dept VALUES (10, 'IT');
+INSERT INTO dept VALUES (20, 'CSE');
+INSERT INTO dept VALUES (30, 'ECE');
+
+INSERT INTO student VALUES (2, 'lova', 10);
+INSERT INTO student VALUES (3, 'siva', 30);
+
+-- select * from dept;
+-- select * from student;
+
+-- select *
+-- from student s
+-- inner join dept d
+-- on s.dept_id = d.dept_id;
+
+-- select *
+-- from student s
+-- inner join dept d
+-- on s.dept_id = d.dept_id and s.id = 3;
+
+-- select *
+-- from student s
+-- inner join dept d
+-- on s.dept_id = d.dept_id
+-- where d.dept_name = 'IT';
+
+SELECT s.id, s.name, d.dept_name
+FROM student s
+INNER JOIN dept d
+ON s.dept_id = d.dept_id;
+
+---------------
+
+CREATE TABLE employee (
+    id INT PRIMARY KEY,
+    name VARCHAR(20),
+    manager_id INT,
+    FOREIGN KEY (manager_id) REFERENCES employee(id)
+);
+
+INSERT INTO employee VALUES (1, 'A', NULL);
+INSERT INTO employee VALUES (2, 'B', 1);
+INSERT INTO employee VALUES (3, 'C', 1);
+INSERT INTO employee VALUES (4, 'D', 2);
+
+-- select * from employee;
+
+select e.name as employee, m.name as manager
+from employee e
+left join employee m
+on e.manager_id = m.id;
+
+-------------
+
