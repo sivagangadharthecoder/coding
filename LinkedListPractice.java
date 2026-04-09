@@ -79,6 +79,34 @@ public class LinkedListPractice {
         return head;
     }
 
+    static Node deleteByPos(Node head, int pos) {
+
+        if (head == null) {
+            return null;
+        }
+        if (pos == 0) {
+            return head.next;
+        }
+
+        Node temp = head;
+
+        for (int i = 0; i < pos - 1; i++) {
+
+            if (temp.next == null) {
+                System.out.println("invalid position!");
+                return head;
+            }
+
+            temp = temp.next;
+        }
+
+        if (temp.next != null) {
+            temp.next = temp.next.next;
+        }
+
+        return head;
+    }
+
     static Node deleteByValue(Node head, int val) {
         if (head == null) {
             return null;
@@ -109,6 +137,63 @@ public class LinkedListPractice {
         System.err.println("NULL");
     }
 
+    static int findLen(Node head) {
+        if (head == null) {
+            return -1;
+        }
+        if (head.next == null) {
+            return 1;
+        }
+
+        int len = 0;
+
+        Node temp = head;
+        while (temp != null) {
+            len++;
+            temp = temp.next;
+        }
+
+        return len;
+    }
+
+    static int findMiddlePos(Node head) {
+        return findLen(head) / 2;
+    }
+
+    static Node deleteFromBehind(Node head, int k) {
+
+        if (head == null) {
+            return null;
+        }
+
+        if (head.next == null) {
+            return null;
+        }
+
+        int len = findLen(head);
+
+        if (k < 0 || k > len) {
+            System.out.println("invalid position!");
+            return head;
+        }
+
+        if (len - k == 0) {
+            return head.next;
+        }
+
+        Node temp = head;
+
+        int pos = len - k;
+
+        for (int i = 0; i < pos - 1; i++) {
+            temp = temp.next;
+        }
+
+        temp.next = temp.next.next;
+
+        return head;
+    }
+
     public static void main(String[] args) throws Exception {
 
         Node head = null;
@@ -133,6 +218,17 @@ public class LinkedListPractice {
 
         head = deleteByValue(head, 100);
         printList(head);
+
+        System.out.println("middle position is : " + findMiddlePos(head));
+        head = deleteByPos(head, 1);
+        printList(head);
+
+        System.out.println("middle position is : " + findMiddlePos(head));
+        System.out.println("no.of nodes are : " + findMiddlePos(head) * 2);
+
+        head = deleteFromBehind(head, 2);
+        printList(head);
+
     }
 
 }
