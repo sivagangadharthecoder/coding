@@ -1,0 +1,91 @@
+🧠 SQL FULL CHEAT SHEET
+1) DBMS / SQL / RDBMS
+DBMS = data manage cheyyadaniki system
+SQL = database tho matladadaniki language
+RDBMS = tables + relations based DBMS
+2) Keys
+Primary Key = unique + no NULL
+Foreign Key = relation between tables
+Candidate Key = possible primary key
+Super Key = uniquely identify chesthundi
+Composite Key = 2+ columns together
+Unique Key = duplicates allow kaadu
+3) DDL / DML / DCL / TCL
+DDL = structure (CREATE, ALTER, DROP, TRUNCATE)
+DML = data (INSERT, UPDATE, DELETE, SELECT)
+DCL = permissions (GRANT, REVOKE)
+TCL = transactions (COMMIT, ROLLBACK, SAVEPOINT)
+4) WHERE / GROUP BY / HAVING / ORDER BY
+WHERE = rows filter
+GROUP BY = same values group
+HAVING = grouped data filter
+ORDER BY = sorting
+5) Aggregate Functions
+COUNT() = count
+SUM() = total
+AVG() = average
+MIN() = smallest
+MAX() = largest
+6) JOINS
+INNER = only matching rows
+LEFT = left full + match
+RIGHT = right full + match
+FULL = everything
+SELF = same table
+CROSS = all combinations
+7) Subqueries
+Query inside another query
+Used in WHERE, IN, EXISTS
+Example: above average salary, max salary employee
+8) PK vs UNIQUE
+PK = main unique id, no NULL
+UNIQUE = uniqueness, usually NULL allow
+9) UNION vs UNION ALL
+UNION = duplicates remove
+UNION ALL = duplicates keep
+10) Normalization
+1NF = atomic values
+2NF = no partial dependency
+3NF = no transitive dependency
+11) Index
+Fast searching kosam
+Like book index
+Speeds up SELECT
+May slow INSERT/UPDATE/DELETE
+12) View
+Virtual table
+Saved query result
+13) ACID
+Atomicity = all or nothing
+Consistency = valid state
+Isolation = no transaction conflict
+Durability = permanent after commit
+14) Integrity Constraints
+Entity Integrity = PK no NULL
+Referential Integrity = FK valid reference
+Domain Constraint = valid data type/range
+Key Constraint = uniqueness
+15) Functions
+String:
+UPPER, LOWER, LENGTH, CONCAT, SUBSTRING, TRIM, REPLACE
+Date:
+CURRENT_DATE, NOW, YEAR, MONTH, DAY, DATEDIFF, DATE_ADD, DATE_SUB
+Math:
+ROUND, CEIL, FLOOR, ABS, MOD, POWER, SQRT
+16) Operators
+Comparison → = > < >= <= !=
+Logical → AND OR NOT
+Special → IN BETWEEN LIKE IS NULL
+17) Sequence / Synonym
+Sequence = auto number generation
+Synonym = alternate name for table/object
+18) Most Asked SQL Queries
+Highest salary
+Second highest salary
+Nth highest salary
+Above average salary
+Duplicate records
+Count employees in each department
+Max salary per department
+NULL rows
+Top N salaries

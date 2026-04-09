@@ -1,0 +1,434 @@
+==============================
+TREES + GRAPHS
+TIME COMPLEXITY & SPACE COMPLEXITY
+INTERVIEW REVISION
+==============================
+
+
+-----------------------------------
+1) TREE CREATION
+-----------------------------------
+
+Definition:
+- Tree create cheyyadam ante nodes create chesi left/right connect cheyyadam
+
+Time Complexity:
+- O(n)
+
+Space Complexity:
+- O(n)
+
+Why:
+- n nodes create chestham
+- every node ni okasari create/assign chestham
+
+Simple Memory:
+- Create all nodes once -> O(n)
+
+
+
+-----------------------------------
+2) TREE DFS TRAVERSALS
+-----------------------------------
+
+Traversals:
+- Preorder  = Root -> Left -> Right
+- Inorder   = Left -> Root -> Right
+- Postorder = Left -> Right -> Root
+
+Time Complexity:
+- O(n)
+
+Space Complexity:
+- O(h)
+
+Worst Case Space:
+- O(n)
+
+Balanced Tree Space:
+- O(log n)
+
+Why:
+- every node ni okasari visit chestham -> O(n)
+- recursion stack use chestham
+- recursion depth = tree height = h
+
+Simple Memory:
+- Visit every node once -> O(n)
+- Recursion stack = height -> O(h)
+
+
+
+-----------------------------------
+3) TREE BFS / LEVEL ORDER
+-----------------------------------
+
+Definition:
+- Queue use chesi level by level traverse cheyyadam
+
+Time Complexity:
+- O(n)
+
+Space Complexity:
+- O(n)
+
+Why:
+- every node queue lo okasari enter, okasari remove
+- queue lo oka level motham store avvachu
+
+Simple Memory:
+- Queue lo nodes store chestham -> O(n)
+- Every node once -> O(n)
+
+
+
+===================================
+GRAPHS
+===================================
+
+
+-----------------------------------
+4) MAKING ADJACENCY LIST
+-----------------------------------
+
+Definition:
+- Graph ni store cheyyadaniki adjacency list use chestham
+
+Time Complexity:
+- O(V + E)
+
+Space Complexity:
+- O(V + E)
+
+Why:
+- V vertices kosam empty lists create chestham
+- E edges add chestham
+
+Simple Memory:
+- Graph store cheyyali ante vertices + edges space kavali -> O(V+E)
+
+
+
+-----------------------------------
+5) PRINTING GRAPH (ADJ LIST)
+-----------------------------------
+
+Definition:
+- Adjacency list lo unna graph ni print cheyyadam
+
+Time Complexity:
+- O(V + E)
+
+Space Complexity:
+- O(1) extra
+
+Why:
+- every vertex ni print chestham
+- every edge ni adjacency list nundi chustham
+
+Simple Memory:
+- Whole graph structure ni once traverse chestham -> O(V+E)
+
+
+
+-----------------------------------
+6) GRAPH DFS
+-----------------------------------
+
+Definition:
+- Depth wise ga graph ni traverse cheyyadam
+
+Time Complexity:
+- O(V + E)
+
+Space Complexity:
+- O(V)
+
+Why:
+- every vertex ni max okasari visit chestham
+- every edge ni once process chestham
+- visited[] + recursion stack use chestham
+
+Simple Memory:
+- Nodes + edges cover chestham -> O(V+E)
+- visited + recursion -> O(V)
+
+
+
+-----------------------------------
+7) GRAPH BFS
+-----------------------------------
+
+Definition:
+- Level wise / queue based graph traversal
+
+Time Complexity:
+- O(V + E)
+
+Space Complexity:
+- O(V)
+
+Why:
+- every node queue lo max okasari
+- every edge once process avvachu
+- visited[] + queue use chestham
+
+Simple Memory:
+- DFS/BFS graph rendu same mostly
+- TC = O(V+E), SC = O(V)
+
+
+
+===================================
+MST (MINIMUM SPANNING TREE)
+===================================
+
+
+-----------------------------------
+8) PRIM'S ALGORITHM
+-----------------------------------
+
+Definition:
+- Minimum edge use chesi node by node MST build chestham
+
+Data Structure Used:
+- Priority Queue / Min Heap
+
+Time Complexity:
+- O(E log V)
+
+Space Complexity:
+- O(V + E)
+
+Why:
+- graph adjacency list traverse chestham
+- min heap lo insert/remove operations untayi
+- heap operation = log V
+
+Simple Memory:
+- Prim's = graph + min heap
+- heap undi kabatti log vastundi
+- edges process chestham -> O(E log V)
+
+Interview Line:
+- Prim's algorithm grows MST node by node using minimum edge.
+
+
+
+-----------------------------------
+9) KRUSKAL'S ALGORITHM
+-----------------------------------
+
+Definition:
+- Smallest edges ni one by one pick chesi MST build chestham
+
+Data Structure Used:
+- DSU / Union Find
+
+Time Complexity:
+- O(E log E)
+
+(Interview lo O(E log V) ani kooda konni sarlu cheptharu,
+but safe answer = O(E log E))
+
+Space Complexity:
+- O(V + E)
+
+Why:
+- first all edges ni sort chestham -> O(E log E)
+- then DSU find/union operations chestham
+- major cost = sorting
+
+Simple Memory:
+- Kruskal's lo main cost = sorting edges
+- Sort edges -> O(E log E)
+
+Interview Line:
+- Kruskal's algorithm picks smallest edges one by one and avoids cycles using DSU.
+
+
+
+===================================
+SHORTEST PATH
+===================================
+
+
+-----------------------------------
+10) 0-1 BFS
+-----------------------------------
+
+Definition:
+- Edge weights only 0 or 1 unte use chestham
+
+Data Structure Used:
+- Deque
+
+Time Complexity:
+- O(V + E)
+
+Space Complexity:
+- O(V)
+
+Why:
+- weight 0 edge unte front lo push chestham
+- weight 1 edge unte back lo push chestham
+- heap avasaram ledu
+- every node/edge efficient ga process avvachu
+
+Simple Memory:
+- 0/1 weights only kabatti heap avasaram ledu
+- deque enough -> O(V+E)
+
+Interview Line:
+- 0-1 BFS is faster than Dijkstra when edge weights are only 0 and 1.
+
+
+
+-----------------------------------
+11) DIJKSTRA ALGORITHM
+-----------------------------------
+
+Definition:
+- Source node nundi all nodes shortest path find chestham
+
+Condition:
+- Works for positive weights only
+
+Data Structure Used:
+- Priority Queue / Min Heap
+
+Time Complexity:
+- O((V + E) log V)
+
+Usually written as:
+- O(E log V)
+
+Space Complexity:
+- O(V + E)
+
+Why:
+- min heap use chestham
+- shortest distance update (relaxation) chestham
+- heap operations valla log V vastundi
+
+Simple Memory:
+- Weighted graph + positive weights + min heap
+- heap undi -> log V
+- edges relax chestham -> O(E log V)
+
+Interview Line:
+- Dijkstra finds shortest path from one source to all nodes when weights are non-negative.
+
+
+
+===================================
+SUPER SHORT REVISION
+===================================
+
+
+TREES
+------
+
+1) Tree Creation
+- TC = O(n)
+- SC = O(n)
+
+2) DFS (Pre/In/Post)
+- TC = O(n)
+- SC = O(h)
+- Worst = O(n)
+- Balanced = O(log n)
+
+3) BFS / Level Order
+- TC = O(n)
+- SC = O(n)
+
+
+
+GRAPHS
+-------
+
+4) Make Adjacency List
+- TC = O(V + E)
+- SC = O(V + E)
+
+5) Print Graph
+- TC = O(V + E)
+- SC = O(1) extra
+
+6) DFS
+- TC = O(V + E)
+- SC = O(V)
+
+7) BFS
+- TC = O(V + E)
+- SC = O(V)
+
+
+
+MST / SHORTEST PATH
+-------------------
+
+8) Prim's
+- TC = O(E log V)
+- SC = O(V + E)
+
+9) Kruskal's
+- TC = O(E log E)
+- SC = O(V + E)
+
+10) 0-1 BFS
+- TC = O(V + E)
+- SC = O(V)
+
+11) Dijkstra
+- TC = O(E log V)
+- SC = O(V + E)
+
+
+
+===================================
+INTERVIEW ONE-LINE ANSWERS
+===================================
+
+Tree DFS:
+- Every node ni once visit chestham kabatti O(n), recursion stack valla O(h)
+
+Tree BFS:
+- Every node ni queue tho once process chestham kabatti O(n), queue valla O(n)
+
+Graph DFS:
+- All vertices and edges ni once cover chestham kabatti O(V+E), visited + recursion valla O(V)
+
+Graph BFS:
+- All vertices and edges ni queue tho cover chestham kabatti O(V+E), queue + visited valla O(V)
+
+Prim's:
+- Min heap use chestham kabatti O(E log V)
+
+Kruskal's:
+- All edges sort chestham kabatti O(E log E)
+
+0-1 BFS:
+- Weights only 0 and 1 kabatti deque tho O(V+E)
+
+Dijkstra:
+- Min heap + relaxation use chestham kabatti O(E log V)
+
+
+
+===================================
+FINAL INTERVIEW NOTE
+===================================
+
+Trees + Graphs ki idi chalu:
+- Tree Creation
+- DFS Traversals
+- BFS / Level Order
+- Graph Adjacency List
+- Graph DFS / BFS
+- Prim's
+- Kruskal's
+- 0-1 BFS
+- Dijkstra
+

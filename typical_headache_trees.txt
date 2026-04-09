@@ -1,0 +1,333 @@
+========================================
+ADVANCED TREES - INTERVIEW QUICK NOTES
+========================================
+
+
+--------------------------------------------------
+1) RED BLACK TREE (RBT)
+--------------------------------------------------
+
+WHAT IS IT?
+- Self-balancing Binary Search Tree
+- BST laane untundi but height ekkuva perigipokunda rules maintain chestundi
+
+MAIN IDEA:
+- Every node ki color untundi:
+  - Red
+  - Black
+- Insert / delete tarvatha rotations + recoloring chestundi
+- So tree almost balanced ga untundi
+
+WHY USE?
+- Search, insert, delete fast ga undali
+- Sorted order kooda maintain avvali
+
+TIME COMPLEXITY:
+- Search  = O(log n)
+- Insert  = O(log n)
+- Delete  = O(log n)
+
+WHERE USED?
+- Java TreeMap
+- Java TreeSet
+- C++ set / map (usually balanced BST based)
+- Ordered data maintain cheyyadaniki
+
+EXAMPLE:
+- Student marks ni sorted order lo maintain cheyyali
+- New marks add cheyyali
+- Fast search kooda kavali
+
+Use:
+- RBT
+
+SIMPLE MEMORY:
+- "Balanced BST for sorted data"
+
+
+
+--------------------------------------------------
+2) B-TREE
+--------------------------------------------------
+
+WHAT IS IT?
+- Multi-way self-balancing search tree
+- BST la 2 children kakunda
+- oka node lo multiple keys untayi
+- multiple children untayi
+
+MAIN IDEA:
+- Height chala takkuva untundi
+- Disk / storage access takkuva avutundi
+
+WHY USE?
+- Huge data ni disk lo fast ga search cheyyadaniki
+
+TIME COMPLEXITY:
+- Search  = O(log n)
+- Insert  = O(log n)
+- Delete  = O(log n)
+
+WHERE USED?
+- Databases
+- File systems
+- Disk-based storage systems
+
+EXAMPLE:
+- Lakhs / crores records unna database lo
+  user ID search cheyyali
+
+Use:
+- B-Tree
+
+SIMPLE MEMORY:
+- "Database / disk kosam balanced tree"
+
+
+
+--------------------------------------------------
+3) B+ TREE
+--------------------------------------------------
+
+WHAT IS IT?
+- B-Tree improved version
+- Internal nodes lo only keys untayi
+- Actual data mostly leaf nodes lo untundi
+- Leaf nodes linked list la connect ayi untayi
+
+MAIN IDEA:
+- Search fast
+- Range queries inka better
+- Sequential traversal easy
+
+WHY USE?
+- Database indexing lo range search fast ga undali
+
+TIME COMPLEXITY:
+- Search  = O(log n)
+- Insert  = O(log n)
+- Delete  = O(log n)
+- Range query = very efficient
+
+WHERE USED?
+- DBMS indexes
+- MySQL / PostgreSQL style indexing concepts
+- File systems
+
+EXAMPLE:
+- Salary between 30,000 and 50,000 unna employees andharini fetch cheyyali
+
+Use:
+- B+ Tree
+
+SIMPLE MEMORY:
+- "Database index + range query king"
+
+
+
+--------------------------------------------------
+4) SEGMENT TREE
+--------------------------------------------------
+
+WHAT IS IT?
+- Array range queries kosam special tree
+- Range meeda fast ga answer istundi
+
+MAIN IDEA:
+- Array ni segments / intervals ga divide chestundi
+- Example:
+  [1..8]
+  [1..4] [5..8]
+  [1..2] [3..4] [5..6] [7..8]
+
+WHY USE?
+- Repeated range queries fast ga answer cheyyali
+- Update kooda fast ga undali
+
+COMMON USES:
+- Range Sum
+- Range Minimum
+- Range Maximum
+- Range XOR
+- Range GCD
+
+TIME COMPLEXITY:
+- Build  = O(n)
+- Query  = O(log n)
+- Update = O(log n)
+
+WHERE USED?
+- Competitive programming
+- Query heavy problems
+- Analytics on array intervals
+
+EXAMPLE:
+Array:
+[2, 5, 1, 4, 9, 3]
+
+Questions:
+- sum from index 1 to 4?
+- min from index 2 to 5?
+- update arr[3] = 10
+
+Use:
+- Segment Tree
+
+SIMPLE MEMORY:
+- "Range query + update fast"
+
+
+
+--------------------------------------------------
+5) FENWICK TREE / BIT (BINARY INDEXED TREE)
+--------------------------------------------------
+
+WHAT IS IT?
+- Prefix sum queries kosam optimized tree-like structure
+- Segment tree kanna simple and compact
+
+MAIN IDEA:
+- Prefix sums ni smart ga maintain chestundi
+- Update and sum query fast ga untayi
+
+WHY USE?
+- Frequent prefix/range sum queries
+- Space takkuva kavali
+- Simpler implementation kavali
+
+TIME COMPLEXITY:
+- Build  = O(n log n)   (or optimized methods exist)
+- Query  = O(log n)
+- Update = O(log n)
+
+WHERE USED?
+- Competitive programming
+- Frequency counting
+- Prefix sums
+- Inversion count problems
+
+EXAMPLE:
+Array:
+[1, 2, 3, 4, 5]
+
+Questions:
+- prefix sum till index 4?
+- update index 2 by +5
+- range sum l to r
+
+Use:
+- Fenwick Tree
+
+SIMPLE MEMORY:
+- "Prefix sum specialist"
+
+
+
+========================================
+SEGMENT TREE vs FENWICK TREE
+========================================
+
+SEGMENT TREE
+- More powerful
+- Sum / Min / Max / GCD / XOR etc
+- Easy for many range operations
+- Slightly bigger code
+
+FENWICK TREE
+- Simpler
+- Mostly prefix sum / range sum
+- Less space
+- Easier code
+
+MEMORY:
+- Simple sums -> Fenwick
+- Advanced range queries -> Segment Tree
+
+
+
+========================================
+B-TREE vs B+ TREE
+========================================
+
+B-TREE
+- Data internal nodes lo kooda undachu
+
+B+ TREE
+- Actual data mostly leaf nodes lo untundi
+- Leaves linked untayi
+- Range queries better
+
+MEMORY:
+- B-Tree = disk tree
+- B+Tree = DB index tree
+
+
+
+========================================
+RBT vs NORMAL BST
+========================================
+
+NORMAL BST
+- Sorted input vaste skew avvachu
+- Worst case O(n)
+
+RED BLACK TREE
+- Balanced ga untundi
+- Worst case O(log n)
+
+MEMORY:
+- BST but smart balancing = RBT
+
+
+
+========================================
+ULTRA SHORT INTERVIEW ANSWERS
+========================================
+
+RBT:
+- Self-balancing BST used for ordered data with fast search/insert/delete
+
+B-Tree:
+- Multi-way balanced tree used in databases and file systems for disk-based searching
+
+B+ Tree:
+- B-Tree variant used in database indexing, especially good for range queries
+
+Segment Tree:
+- Used for fast range queries and updates on arrays
+
+Fenwick Tree:
+- Used for fast prefix sum / range sum queries and updates
+
+
+
+========================================
+ONE LINE EXAMPLES
+========================================
+
+RBT:
+- TreeMap / TreeSet laanti ordered collections
+
+B-Tree:
+- Huge database record search
+
+B+ Tree:
+- SQL range query indexing
+
+Segment Tree:
+- Query sum/min/max from l to r repeatedly
+
+Fenwick Tree:
+- Prefix sum and update problems
+
+
+
+========================================
+INTERVIEW SAFE MEMORY
+========================================
+
+RBT      -> Balanced BST
+B-Tree   -> Disk / DB tree
+B+ Tree  -> DB indexing / range query
+Segment  -> Range query + update
+Fenwick  -> Prefix sum + update
